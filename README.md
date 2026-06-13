@@ -88,7 +88,9 @@ public class MyLinearSearch {
         System.out.println("Total Steps = " + steps);
     }
 }
-
+```
+## Q2. Binary Search Trace
+```java 
 public class MyBinarySearch {
     public static void main(String[] args) {
         int[] arr = {9, 21, 34, 48, 57, 66, 83};
@@ -123,7 +125,9 @@ public class MyBinarySearch {
         System.out.println("Total Steps = " + steps);
     }
 }
-
+```
+## Q3. Bubble Sort Trace
+``` java
 public class MySelectionSort {
     public static void main(String[] args) {
         int[] arr = {52, 18, 37, 9, 64};
@@ -177,3 +181,4 @@ public class MySelectionSort {
         System.out.println("\nTotal Swaps: " + swapCount);
     }
 }
+```
