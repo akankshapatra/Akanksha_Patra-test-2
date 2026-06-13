@@ -47,7 +47,7 @@ Array: {38, 15, 42, 6, 29}
 | 3    | 42 & 6            | Yes   | {15, 38, 6, 42, 29} |
 | 4    | 42 & 29           | Yes   | {15, 38, 6, 29, 42} |
 
-➡ After Pass 1, **42** is settled at the end.
+ After Pass 1, **42** is settled at the end.
 
 **Pass 2**
 | Step | Elements Compared | Swap? | Array After Step |
@@ -56,13 +56,13 @@ Array: {38, 15, 42, 6, 29}
 | 2    | 38 & 6            | Yes   | {15, 6, 38, 29, 42} |
 | 3    | 38 & 29           | Yes   | {15, 6, 29, 38, 42} |
 
-➡ After Pass 2, **38** is settled at the end.
+ After Pass 2, **38** is settled at the end.
 
 ---
 
 ## Q4. Linear Search Code
 ```java
-public class MyLinearSearch {
+public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {33, 8, 71, 19, 56, 44, 27};
         int target = 56;
@@ -91,7 +91,7 @@ public class MyLinearSearch {
 ```
 ## Q2. Binary Search Trace
 ```java 
-public class MyBinarySearch {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {9, 21, 34, 48, 57, 66, 83};
         int target = 66;
@@ -128,7 +128,7 @@ public class MyBinarySearch {
 ```
 ## Q3. Bubble Sort Trace
 ``` java
-public class MySelectionSort {
+public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {52, 18, 37, 9, 64};
 
